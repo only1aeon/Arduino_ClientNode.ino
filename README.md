@@ -56,27 +56,27 @@ const int MAX_BIN_HEIGHT = 42; // cm`
 
 Open Arduino IDE → Select:
 
-Board: ESP32 Dev Module
+`Board: ESP32 Dev Module
 Port: (Your USB port)
-Baud rate: 115200
+Baud rate: 115200`
 
 Click Upload.
 
 ## 🧩 Client Node Workflow
 
 - `[Power On]`
-      ↓
+ -     ↓
 - `[Connect to Host AP]`
-      ↓
+  -    ↓
 - `[Measure Distance]`
-      ↓
+ -     ↓
 - `[Compute Fill Level %]`
-      ↓
+ -     ↓
 - `[POST JSON to Host]`
-      ↓
+ -     ↓
 - `[Success?]` → Yes → Wait & Repeat
-       ↓
-      No → Retry
+-       ↓
+ -     No → Retry
 
 ## 📌 Troubleshooting
 
