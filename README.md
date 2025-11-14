@@ -50,11 +50,15 @@ Update these constants before uploading:
 
 ## 📤 Example JSON Payload
 
-`{
-  "node_id": 1,
-  "distance": 22.3,
-  "fill_level": 68
-}`
+`{`
+
+  `"node_id": 1,`
+
+  `"distance": 22.3,`
+
+  `"fill_level": 68`
+
+`}`
 
 ## ▶️ Uploading the Firmware
 
@@ -69,17 +73,29 @@ Click `Upload`.
 ## 🧩 Client Node Workflow
 
 - `[Power On]`
--     ↓
+
+     ↓
+
 - `[Connect to Host AP]`
--     ↓
+
+     ↓
+
 - `[Measure Distance]`
--     ↓
+
+     ↓
+
 - `[Compute Fill Level %]`
--     ↓
+
+     ↓
+
 - `[POST JSON to Host]`
--     ↓
+
+     ↓
+
 - `[Success?]` → `Yes` → `Wait & Repeat`
--     ↓
+
+     ↓
+
 -     No → Retry
 
 ## 📌 Troubleshooting
