@@ -64,9 +64,11 @@ Update these constants before uploading:
 
 Open Arduino IDE → Select:
 
-`Board: ESP32 Dev Module
-Port: (Your USB port)
-Baud rate: 115200`
+`Board: ESP32 Dev Module`
+
+`Port: (Your USB port)`
+
+`Baud rate: 115200`
 
 Click `Upload`.
 
