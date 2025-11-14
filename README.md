@@ -1,7 +1,7 @@
 # ESP32 Smart Waste Bin – Client Node Firmware
 
 ## 🚀 Overview
-The `Client Nodes` is an ESP32-based sensor module that measures bin fill level using an `HC-SR04 ultrasonic sensor` and sends data wirelessly to the [Host Node](https://github.com/only1aeon/Arduino_HostAP_Node.ino). Each bin acts as an intelligent IoT device within a Wireless Sensor Network (WSN).
+The `Client Node` is an ESP32-based sensor module that measures bin fill level using an `HC-SR04 ultrasonic sensor` and sends data wirelessly to the [Host Node](https://github.com/only1aeon/Arduino_HostAP_Node.ino). Each bin acts as an intelligent IoT device within a Wireless Sensor Network (WSN).
 This node functions as a remote sensor client that publishes real-time bin metrics.
 
 ## 📌 Features
