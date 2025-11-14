@@ -102,7 +102,7 @@ Click `Upload`.
 
 `Issue`	 → `Cause`	 → `Solution`
 
-- Always 0 cm	→ Wrong trig/echo pins	→ Verify wiring
+- Always 0cm	→ Wrong trig/echo pins	→ Verify wiring
 - Cannot connect to AP	→ Wrong credentials	→ Check SSID & password
 - Fill level wrong	→ Wrong bin height → Update `MAX_BIN_HEIGHT`
 
