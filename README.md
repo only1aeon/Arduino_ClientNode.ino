@@ -1,12 +1,10 @@
 # ESP32 Smart Waste Bin – Client Node Firmware
 
 ## 🚀 Overview
-
-The 'Client Node' is an ESP32-based sensor module that measures bin fill level using an 'HC-SR04 ultrasonic sensor' and sends data wirelessly to the [Host Node](https://github.com/only1aeon/Arduino_HostAP_Node.ino). Each bin acts as an intelligent IoT device within a Wireless Sensor Network (WSN).
+The `Client Nodes` is an ESP32-based sensor module that measures bin fill level using an `HC-SR04 ultrasonic sensor` and sends data wirelessly to the [Host Node](https://github.com/only1aeon/Arduino_HostAP_Node.ino). Each bin acts as an intelligent IoT device within a Wireless Sensor Network (WSN).
 This node functions as a remote sensor client that publishes real-time bin metrics.
 
 ## 📌 Features
-
 - 📡 Ultrasonic distance measurement
 - 📤 JSON-formatted POST requests to Host Node
 - 🔁 Auto-retry on failed transmissions
@@ -17,54 +15,33 @@ This node functions as a remote sensor client that publishes real-time bin metri
 
 
 ## 🧰 Hardware Requirements
-Component	Description
-
+Component	Description:
 - ESP32 Dev Board	Client microcontroller
 - HC-SR04	Ultrasonic distance sensor
 - Jumper wires	For connections
 - Power supply	USB or battery
 
 
-🔌 Wiring Diagram
-
+## 🔌 Wiring Diagram
 HC-SR04 Pin	ESP32 Pin
+VCC	`5V`
+GND `GND`
+TRIG 	`GPIO 5`
+ECHO 	`GPIO 18`
 
-VCC	5V
-GND	GND
-TRIG	GPIO 5
-ECHO	GPIO 18
-
-
-
----
-
-🛠️ Firmware Configuration
-
+## 🛠️ Firmware Configuration
 Update these constants before uploading:
-
-#define NODE_ID 1
+`#define NODE_ID 1
 const char* WIFI_SSID = "SmartBinHost";
 const char* WIFI_PASSWORD = "12345678";
 const char* HOST_URL = "http://192.168.4.1/update-bin";
-const int MAX_BIN_HEIGHT = 40; // cm
+const int MAX_BIN_HEIGHT = 42; // cm`
 
-
----
-
-🧪 How It Works
-
+## 🧪 How It Works
 1. Measures distance using HC-SR04
-
-
 2. Converts distance → fill level %
-
-
 3. Packages data as JSON
-
-
 4. Sends POST request to Host Node
-
-
 5. Repeats periodically
 
 
