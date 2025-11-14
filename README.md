@@ -96,7 +96,7 @@ Click `Upload`.
 
      ↓
 
-- No → Retry
+- `No` → `Retry`
 
 ## 📌 Troubleshooting
 
