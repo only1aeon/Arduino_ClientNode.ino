@@ -32,9 +32,13 @@ HC-SR04 Pin	→ ESP32 Pin
 Update these constants before uploading:
 
 `#define NODE_ID 1`
+
 `const char* WIFI_SSID = "SmartBinHost";`
+
 `const char* WIFI_PASSWORD = "12345678";`
-`const char* HOST_URL =` `"http://192.168.4.1/update-bin";`
+
+`const char* HOST_URL = "http://192.168.4.1/update-bin";`
+
 `const int MAX_BIN_HEIGHT = 42; // cm`
 
 ## 🧪 How It Works
