@@ -64,17 +64,17 @@ Click Upload.
 
 ## 🧩 Client Node Workflow
 
-`[Power On]`
+- `[Power On]`
       ↓
-`[Connect to Host AP]`
+- `[Connect to Host AP]`
       ↓
-`[Measure Distance]`
+- `[Measure Distance]`
       ↓
-`[Compute Fill Level %]`
+- `[Compute Fill Level %]`
       ↓
-`[POST JSON to Host]`
+- `[POST JSON to Host]`
       ↓
-`[Success?]` → Yes → Wait & Repeat
+- `[Success?]` → Yes → Wait & Repeat
        ↓
       No → Retry
 
@@ -82,9 +82,9 @@ Click Upload.
 
 Issue	 → Cause	 → Solution
 
-Always 0 cm	→ Wrong trig/echo pins	→ Verify wiring
-Cannot connect to AP	→ Wrong credentials	→ Check SSID & password
-Fill level wrong	→ Wrong bin height → Update `MAX_BIN_HEIGHT`
+- Always 0 cm	→ Wrong trig/echo pins	→ Verify wiring
+- Cannot connect to AP	→ Wrong credentials	→ Check SSID & password
+- Fill level wrong	→ Wrong bin height → Update `MAX_BIN_HEIGHT`
 
 ## 📄 License
 Free for educational and research use.
