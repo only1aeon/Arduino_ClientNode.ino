@@ -23,14 +23,15 @@ Component	Description:
 
 
 ## 🔌 Wiring Diagram
-HC-SR04 Pin	ESP32 Pin
-VCC	`5V`
-GND `GND`
-TRIG 	`GPIO 5`
-ECHO 	`GPIO 18`
+HC-SR04 Pin	→ ESP32 Pin
+- VCC → `5V`
+- GND → `GND`
+- TRIG 	→ `GPIO 5`
+- ECHO → `GPIO 18`
 
 ## 🛠️ Firmware Configuration
 Update these constants before uploading:
+
 `#define NODE_ID 1
 const char* WIFI_SSID = "SmartBinHost";
 const char* WIFI_PASSWORD = "12345678";
