@@ -14,12 +14,11 @@ This node functions as a remote sensor client that publishes real-time bin metri
 - 🔧 Easy scalability (just copy & change node_id)
 
 
-## 🧰 Hardware Requirements
-Component	Description:
-- ESP32 Dev Board	Client microcontroller
-- HC-SR04	Ultrasonic distance sensor
-- Jumper wires	For connections
-- Power supply	USB or battery
+## 🧰 Hardware Requirements → Component	Description:
+- `ESP32 Dev Board`	→ Client microcontroller
+- `HC-SR04	Ultrasonic` → distance sensor
+- `Jumper wires`	→ For connections
+- `Power supply`	→ USB or battery
 
 
 ## 🔌 Wiring Diagram
@@ -45,23 +44,15 @@ const int MAX_BIN_HEIGHT = 42; // cm`
 4. Sends POST request to Host Node
 5. Repeats periodically
 
+## 📤 Example JSON Payload
 
-
-
----
-
-📤 Example JSON Payload
-
-{
+`{
   "node_id": 1,
   "distance": 22.3,
   "fill_level": 68
-}
+}`
 
-
----
-
-▶️ Uploading the Firmware
+## ▶️ Uploading the Firmware
 
 Open Arduino IDE → Select:
 
@@ -71,10 +62,7 @@ Baud rate: 115200
 
 Click Upload.
 
-
----
-
-🧩 Client Node Workflow
+## 🧩 Client Node Workflow
 
 [Power On]
       ↓
@@ -90,10 +78,7 @@ Click Upload.
        ↓
       No → Retry
 
-
----
-
-📌 Troubleshooting
+## 📌 Troubleshooting
 
 Issue	Cause	Solution
 
@@ -101,10 +86,5 @@ Always 0 cm	Wrong trig/echo pins	Verify wiring
 Cannot connect to AP	Wrong credentials	Check SSID & password
 Fill level wrong	Wrong bin height	Update MAX_BIN_HEIGHT
 
-
-
----
-
-📄 License
-
+## 📄 License
 Free for educational and research use.
