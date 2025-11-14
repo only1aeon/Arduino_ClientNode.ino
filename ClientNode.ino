@@ -13,7 +13,7 @@ const uint16_t HOST_PORT = 80;
 const int TRIG_PIN = 25;  // output
 const int ECHO_PIN = 34;  // input (use input-only pins 34/35/36)
 const int NODE_ID = 1;    // CHANGE per node: 1, 2, 3
-const float BIN_HEIGHT_CM = 75.0; // set your bin height in cm here
+const float BIN_HEIGHT_CM = 42.0; // set your bin height in cm here
 
 const unsigned long SEND_INTERVAL_MS = 15000UL; // how often to send readings
 ///////////////////////////
