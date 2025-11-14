@@ -60,27 +60,27 @@ Open Arduino IDE → Select:
 Port: (Your USB port)
 Baud rate: 115200`
 
-Click Upload.
+Click `Upload`.
 
 ## 🧩 Client Node Workflow
 
 - `[Power On]`
- -     ↓
+-     ↓
 - `[Connect to Host AP]`
-  -    ↓
+-     ↓
 - `[Measure Distance]`
- -     ↓
+-     ↓
 - `[Compute Fill Level %]`
- -     ↓
+-     ↓
 - `[POST JSON to Host]`
- -     ↓
-- `[Success?]` → Yes → Wait & Repeat
--       ↓
- -     No → Retry
+-     ↓
+- `[Success?]` → `Yes` → `Wait & Repeat`
+-     ↓
+-     No → Retry
 
 ## 📌 Troubleshooting
 
-Issue	 → Cause	 → Solution
+`Issue`	 → `Cause`	 → `Solution`
 
 - Always 0 cm	→ Wrong trig/echo pins	→ Verify wiring
 - Cannot connect to AP	→ Wrong credentials	→ Check SSID & password
