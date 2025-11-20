@@ -48,15 +48,13 @@ const int MAX_BIN_HEIGHT = 42; // cm
 
 ## 📤 Example JSON Payload
 
-`{`
-
-  `"node_id": 1,`
-
-  `"distance": 22.3,`
-
-  `"fill_level": 68`
-
-`}`
+```bash
+{
+  "node_id": 1,
+  "distance": 22.3,
+  "fill_level": 68
+}
+```
 
 ## ▶️ Uploading the Firmware
 
