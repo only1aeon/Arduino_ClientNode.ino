@@ -60,11 +60,11 @@ const int MAX_BIN_HEIGHT = 42; // cm
 
 Open Arduino IDE → Select:
 
-`Board: ESP32 Dev Module`
-
-`Port: (Your USB port)`
-
-`Baud rate: 115200`
+```bash
+Board: ESP32 Dev Module
+Port: (Your USB port)
+Baud rate: 115200
+```
 
 Click `Upload`.
 
