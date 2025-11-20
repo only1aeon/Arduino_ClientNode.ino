@@ -31,7 +31,7 @@ HC-SR04 Pin	→ ESP32 Pin
 ## 🛠️ Firmware Configuration
 Update these constants before uploading:
 
-```cpp
+```bash
 #define NODE_ID 1
 const char* WIFI_SSID = "SmartBinHost";
 const char* WIFI_PASSWORD = "12345678";
