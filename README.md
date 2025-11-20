@@ -31,7 +31,7 @@ HC-SR04 Pin	→ ESP32 Pin
 ## 🛠️ Firmware Configuration
 Update these constants before uploading:
 
-```bash
+```cpp
 #define NODE_ID 1
 const char* WIFI_SSID = "SmartBinHost";
 const char* WIFI_PASSWORD = "12345678";
@@ -48,7 +48,7 @@ const int MAX_BIN_HEIGHT = 42; // cm
 
 ## 📤 Example JSON Payload
 
-```bash
+```json
 {
   "node_id": 1,
   "distance": 22.3,
